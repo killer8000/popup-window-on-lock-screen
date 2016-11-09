@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:clickable="false"
+    tools:context="com.example.ndh.myapplication3.MainActivity">
+    <!--<TextView-->
+        <!--android:background="#ff0000"-->
+        <!--android:text="hello"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent" />-->
+    <include layout="@layout/list_dialog"/>
+</RelativeLayout>
